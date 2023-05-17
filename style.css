@@ -79,12 +79,28 @@ section {
     width: 32.8rem;
 }
 .home-content .text-animate h3 {
-    font-size: 3.2rem;
-    font-weight: 700;
+    font-size: 36px;
+    font-weight: 550;
     color:transparent;
-    -webkit-text-stroke: .7px var(--main-color);
+    -webkit-text-stroke: .3px var(--main-color);
 }
 .home-content p {
     font-size: 1.6rem;
     margin: 2rem 0 4rem;
+}
+.btn-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 34.5rem;
+    height: 5rem;
+}
+.btn-box .btn{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 100%;
+    background: var(--main-color);
 }
