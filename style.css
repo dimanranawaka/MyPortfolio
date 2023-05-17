@@ -185,3 +185,19 @@ section {
 .home-sci a:hover::before{
     width:100%;
 }
+.home-imgHover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 45%;
+    background: transparent;
+    /*border: 2px solid red;*/
+    transition: 3s;
+}
+.home-imgHover:hover{
+    background: var(--bg-color);
+    opacity: 0.8;
+
+
+}
