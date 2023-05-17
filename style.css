@@ -73,3 +73,13 @@ section {
     font-weight: 700;
     line-height: 1.3;
 }
+.home-content .text-animate {
+    position: relative;
+    width: 32.8rem;
+}
+.home-content .text-animate h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color:transparent;
+    -webkit-text-stroke: .7px var(--main-color);
+}
