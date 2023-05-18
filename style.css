@@ -83,10 +83,28 @@ section {
 }
 .home-content .text-animate h3 {
     position: relative;
-    font-size: 36px;
-    font-weight: 550;
-    color:transparent;
+    font-size: 3.0rem;
+    font-weight: 600;
+    color:antiquewhite;
     -webkit-text-stroke: .3px var(--main-color);
+    padding: 0.5rem;
+    transition: color 0.3s ease-in-out;
+}
+.home-content .text-animate h3:hover {
+    color: var(--main-color);
+    animation-name: text-fade;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes text-fade {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 .home-content p {
     font-size: 1.6rem;
