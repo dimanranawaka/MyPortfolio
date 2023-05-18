@@ -197,7 +197,7 @@ section {
 }
 .home-imgHover:hover{
     background: var(--bg-color);
-    opacity: 0.3;
+    opacity: 0.5;
 }
 .about{
     display: flex;
