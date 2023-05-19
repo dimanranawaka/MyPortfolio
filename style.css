@@ -8,13 +8,13 @@
 }
 
 :root {
-    --bg-color: #081b29;
+    --bg-color: #243A73;
     --second-bg-color: #112e42;
     --text-color: #ededed;
-    --main-color: #00abf0;
+    --main-color: #3FA796;
 }
 html{
-    font-size:62.5%;
+    font-size:65.5%;
     overflow-x:hidden;
     color:var(--text-color);
 }
