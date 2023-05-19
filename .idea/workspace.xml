@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Color Adjustment" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5101e912-5a0e-4390-9bca-7b608bac8ec6" />
+        <option name="url" value="https://github.com/dimanranawaka/MyPortfolio.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PtPNSP6ltC9OoBU0lYxBSBNiX1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WebApps/WorkZone/MyPortfolio/Assignments/CSS Framework/pos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\CSS Framework\pos" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\CSS Framework\pos\bootstraps\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="" />
+      <created>1684273364258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684273364258</updated>
+      <workItem from="1684273365489" duration="10529000" />
+      <workItem from="1684293587274" duration="8380000" />
+      <workItem from="1684362418518" duration="27502000" />
+      <workItem from="1684421438004" duration="28000" />
+      <workItem from="1684422192765" duration="1009000" />
+      <workItem from="1684423210852" duration="26000" />
+      <workItem from="1684452252150" duration="2425000" />
+      <workItem from="1684455038611" duration="286000" />
+      <workItem from="1684466605135" duration="992000" />
+    </task>
+    <task id="LOCAL-00001" summary="Second Commit">
+      <created>1684273933516</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684273933516</updated>
+    </task>
+    <task id="LOCAL-00002" summary="3 rd Commit">
+      <created>1684274982982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684274982982</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Header CSS Configuration">
+      <created>1684275389649</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684275389649</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Stylish Logo">
+      <created>1684275639471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684275639471</updated>
+    </task>
+    <task id="LOCAL-00005" summary="navbar configuration">
+      <created>1684275891164</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684275891164</updated>
+    </task>
+    <task id="LOCAL-00006" summary="navbar configuration">
+      <created>1684276093549</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684276093549</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding a menu button">
+      <created>1684276458444</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684276458444</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Small modification of header">
+      <created>1684276639609</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684276639609</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adding js file and more">
+      <created>1684282670673</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684282670673</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Customizing home-content">
+      <created>1684282880223</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684282880223</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Customizing home-content h1">
+      <created>1684283077440</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684283077440</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Customizing home-content text animate,text animate h3">
+      <created>1684283647616</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684283647616</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Customizing home-content p">
+      <created>1684283889463</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684283889463</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Customizing btn-bx">
+      <created>1684284494533</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684284494533</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Customizing btn-bx more">
+      <created>1684284900698</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684284900698</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Customizing btn-hover">
+      <created>1684285615413</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684285615413</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Customizing btn-hover fix">
+      <created>1684285756676</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684285756676</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Customizing btn-hover more">
+      <created>1684289049336</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684289049336</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Customizing btn-hover more etc">
+      <created>1684294039806</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684294039806</updated>
+    </task>
+    <task id="LOCAL-00020" summary="More on hover effect">
+      <created>1684295006686</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1684295006686</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Background Image Added">
+      <created>1684296572329</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1684296572329</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Background right-side hover effect">
+      <created>1684297009364</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1684297009364</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Opacity Reduced">
+      <created>1684301387190</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1684301387190</updated>
+    </task>
+    <task id="LOCAL-00024" summary="About Section">
+      <created>1684307181312</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1684307181312</updated>
+    </task>
+    <task id="LOCAL-00025" summary="About Section">
+      <created>1684307187965</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1684307187965</updated>
+    </task>
+    <task id="LOCAL-00026" summary="About Section Done!">
+      <created>1684374487927</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1684374487927</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Skill Section">
+      <created>1684376841912</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1684376841912</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Skill Section Fix Errors">
+      <created>1684379782311</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1684379782311</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Fix some bugs of entire projects">
+      <created>1684384406256</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1684384406256</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Skills Section Done!">
+      <created>1684386585404</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1684386585404</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Contact Section Done!">
+      <created>1684390879783</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1684390879783</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Opacity Ajust">
+      <created>1684391454815</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1684391454815</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Boostrap Assignment">
+      <created>1684422656449</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1684422656449</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Heading Hover Effect">
+      <created>1684453476028</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1684453476028</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Color Adjustment">
+      <created>1684454673339</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1684454673339</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Customizing home-content" />
+    <MESSAGE value="Customizing home-content h1" />
+    <MESSAGE value="Customizing home-content text animate,text animate h3" />
+    <MESSAGE value="Customizing home-content p" />
+    <MESSAGE value="Customizing btn-bx" />
+    <MESSAGE value="Customizing btn-bx more" />
+    <MESSAGE value="Customizing btn-hover" />
+    <MESSAGE value="Customizing btn-hover fix" />
+    <MESSAGE value="Customizing btn-hover more" />
+    <MESSAGE value="Customizing btn-hover more etc" />
+    <MESSAGE value="More on hover effect" />
+    <MESSAGE value="Background Image Added" />
+    <MESSAGE value="Background right-side hover effect" />
+    <MESSAGE value="Opacity Reduced" />
+    <MESSAGE value="About Section" />
+    <MESSAGE value="About Section Done!" />
+    <MESSAGE value="Skill Section" />
+    <MESSAGE value="Skill Section Fix Errors" />
+    <MESSAGE value="Fix some bugs of entire projects" />
+    <MESSAGE value="Skills Section Done!" />
+    <MESSAGE value="Contact Section Done!" />
+    <MESSAGE value="Opacity Ajust" />
+    <MESSAGE value="Boostrap Assignment" />
+    <MESSAGE value="Heading Hover Effect" />
+    <MESSAGE value="Color Adjustment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Color Adjustment" />
+  </component>
+</project>
