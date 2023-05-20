@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Color Adjustment">
-      <change beforePath="$PROJECT_DIR$/Assignments/CSS Framework/pos/CustomerForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS Framework/pos/CustomerForm.html" afterDir="false" />
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Logo Text">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +44,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WebApps/WorkZone/MyPortfolio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WebApps/WorkZone/MyPortfolio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\CSS Framework\pos" />
@@ -83,6 +83,8 @@
       <workItem from="1684455038611" duration="286000" />
       <workItem from="1684466605135" duration="992000" />
       <workItem from="1684486747393" duration="195000" />
+      <workItem from="1684509322469" duration="189000" />
+      <workItem from="1684509576710" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1684273933516</created>
@@ -329,7 +331,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684454673339</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Color Adjustment">
+      <created>1684509335858</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1684509335858</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Logo Text">
+      <created>1684509504731</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1684509504731</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +363,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Customizing home-content" />
     <MESSAGE value="Customizing home-content h1" />
     <MESSAGE value="Customizing home-content text animate,text animate h3" />
     <MESSAGE value="Customizing home-content p" />
@@ -372,6 +387,7 @@
     <MESSAGE value="Boostrap Assignment" />
     <MESSAGE value="Heading Hover Effect" />
     <MESSAGE value="Color Adjustment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Color Adjustment" />
+    <MESSAGE value="Logo Text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logo Text" />
   </component>
 </project>
