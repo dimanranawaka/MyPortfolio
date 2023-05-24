@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adding a footer">
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Removed a text underline of a section">
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +87,7 @@
       <workItem from="1684509576710" duration="49000" />
       <workItem from="1684541779328" duration="820000" />
       <workItem from="1684589813956" duration="12000" />
-      <workItem from="1684893088255" duration="2876000" />
+      <workItem from="1684893088255" duration="3694000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1684273933516</created>
@@ -376,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684895888327</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Removed a text underline of a section">
+      <created>1684896116523</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1684896116524</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +401,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Customizing btn-bx" />
     <MESSAGE value="Customizing btn-bx more" />
     <MESSAGE value="Customizing btn-hover" />
     <MESSAGE value="Customizing btn-hover fix" />
@@ -419,6 +425,7 @@
     <MESSAGE value="Update the Social Media Links" />
     <MESSAGE value="Add more tabs into navbar" />
     <MESSAGE value="Adding a footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a footer" />
+    <MESSAGE value="Removed a text underline of a section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed a text underline of a section" />
   </component>
 </project>
