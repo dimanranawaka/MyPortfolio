@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Add more tabs into navbar">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adding a footer">
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +87,7 @@
       <workItem from="1684509576710" duration="49000" />
       <workItem from="1684541779328" duration="820000" />
       <workItem from="1684589813956" duration="12000" />
-      <workItem from="1684893088255" duration="2558000" />
+      <workItem from="1684893088255" duration="2876000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1684273933516</created>
@@ -364,7 +362,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684893492475</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Adding a footer">
+      <created>1684895713632</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1684895713632</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Adding a footer">
+      <created>1684895888327</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1684895888327</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +394,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Customizing home-content p" />
     <MESSAGE value="Customizing btn-bx" />
     <MESSAGE value="Customizing btn-bx more" />
     <MESSAGE value="Customizing btn-hover" />
@@ -407,6 +418,7 @@
     <MESSAGE value="Logo Text" />
     <MESSAGE value="Update the Social Media Links" />
     <MESSAGE value="Add more tabs into navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add more tabs into navbar" />
+    <MESSAGE value="Adding a footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a footer" />
   </component>
 </project>

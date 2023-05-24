@@ -183,6 +183,7 @@ section {
     border: .2rem solid var(--main-color);
     border-radius: 50%;
     font-size: 20px;
+    text-decoration: none;
     color: var(--main-color);
     z-index: 1;
     overflow: hidden;
