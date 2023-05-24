@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adding Services Section" />
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adjust Fonts">
+      <change afterPath="$PROJECT_DIR$/Assests/gallery-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assests/gallery-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assests/gallery-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assests/gallery-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assests/gallery-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assests/gallery-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,12 +48,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2PtPNSP6ltC9OoBU0lYxBSBNiX1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -85,14 +99,7 @@
       <workItem from="1684509576710" duration="49000" />
       <workItem from="1684541779328" duration="820000" />
       <workItem from="1684589813956" duration="12000" />
-      <workItem from="1684893088255" duration="10458000" />
-    </task>
-    <task id="LOCAL-00001" summary="Second Commit">
-      <created>1684273933516</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1684273933516</updated>
+      <workItem from="1684893088255" duration="13410000" />
     </task>
     <task id="LOCAL-00002" summary="3 rd Commit">
       <created>1684274982982</created>
@@ -423,7 +430,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684904759166</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Adding Fonts">
+      <created>1684905073041</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1684905073041</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Adjust Fonts">
+      <created>1684905324698</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1684905324699</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,8 +462,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="More on hover effect" />
-    <MESSAGE value="Background Image Added" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Background right-side hover effect" />
     <MESSAGE value="Opacity Reduced" />
     <MESSAGE value="About Section" />
@@ -466,6 +486,8 @@
     <MESSAGE value="Reverse Modification of Navbar" />
     <MESSAGE value="Download CV Button" />
     <MESSAGE value="Adding Services Section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Services Section" />
+    <MESSAGE value="Adding Fonts" />
+    <MESSAGE value="Adjust Fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjust Fonts" />
   </component>
 </project>
