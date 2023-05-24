@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adding a Resume" />
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Fixing the download Resume">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,14 +91,7 @@
       <workItem from="1684509576710" duration="49000" />
       <workItem from="1684541779328" duration="820000" />
       <workItem from="1684589813956" duration="12000" />
-      <workItem from="1684893088255" duration="31835000" />
-    </task>
-    <task id="LOCAL-00012" summary="Customizing home-content text animate,text animate h3">
-      <created>1684283647616</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1684283647616</updated>
+      <workItem from="1684893088255" duration="32701000" />
     </task>
     <task id="LOCAL-00013" summary="Customizing home-content p">
       <created>1684283889463</created>
@@ -434,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684938486469</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Fixing the download Resume">
+      <created>1684938752692</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1684938752692</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +455,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fix some bugs of entire projects" />
     <MESSAGE value="Skills Section Done!" />
     <MESSAGE value="Contact Section Done!" />
     <MESSAGE value="Opacity Ajust" />
@@ -478,6 +479,7 @@
     <MESSAGE value="Footer Adjustment" />
     <MESSAGE value="Adding Achivements section" />
     <MESSAGE value="Adding a Resume" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a Resume" />
+    <MESSAGE value="Fixing the download Resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing the download Resume" />
   </component>
 </project>
