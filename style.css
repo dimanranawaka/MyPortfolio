@@ -571,44 +571,40 @@ contact form.textarea-field textarea:valid~.focus{
     cursor: pointer;
 }
 .footer {
-    background-color: var(--second-bg-color);
+    display: grid;
+    place-items: center;
     padding: 20px;
+    color: #000;
+}
+
+.footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+    color: var(--text-color)
+}
+
+.footer-social a i {
+    color: rgb(10, 26, 208);
+    font-size: 25px;
+    margin-left: 10px;
     text-align: center;
-    position: relative; /* Add position relative for child element positioning */
+    line-height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 
-.footer-content {
-    margin-top: 20px; /* Add some spacing between the social icons and the copyright text */
-}
-
-.footer p {
-    margin-bottom: 10px;
+.copyright {
+    padding: 20px;
+    background: var(--main-color);
+    text-align: center;
+    color: #fff;
     font-size: 20px;
-    color: #fff; /* Add a color to the text */
 }
 
-.footer p:hover {
-    color: #6f42c1;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-
-.footer .home-sci {
-    width: 170px;
-    display: flex;
-    justify-content: space-between;
-    gap: 6px;
-    margin: 0 auto; /* Center align the social icons horizontally */
-    max-width: 100%;
-}
-
-.footer .home-sci a {
-    color: #fff; /* Add a color to the social icons */
-}
-
-.footer .home-sci a:hover {
-    color: #6f42c1;
-    transition: color 0.3s ease;
+.copyright a {
+    color: #22cf91;
 }
 .gallery {
     padding-top: var(--main-padding-top);
