@@ -599,7 +599,7 @@ contact form.textarea-field textarea:valid~.focus{
     justify-content: space-between;
     gap: 6px;
     margin: 0 auto; /* Center align the social icons horizontally */
-    max-width: 100%; /* Ensure the social icons container doesn't exceed the parent width */
+    max-width: 100%;
 }
 
 .footer .home-sci a {
