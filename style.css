@@ -605,7 +605,7 @@ contact form.textarea-field textarea:valid~.focus{
 .gallery .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 40px;
+    gap: 30px;
 }
 .gallery .box {
     padding: 15px;

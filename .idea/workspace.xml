@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adjust Fonts">
-      <change afterPath="$PROJECT_DIR$/Assests/gallery-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assests/gallery-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assests/gallery-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assests/gallery-04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assests/gallery-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assests/gallery-06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adding Gallery sections" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,14 +89,7 @@
       <workItem from="1684509576710" duration="49000" />
       <workItem from="1684541779328" duration="820000" />
       <workItem from="1684589813956" duration="12000" />
-      <workItem from="1684893088255" duration="13410000" />
-    </task>
-    <task id="LOCAL-00002" summary="3 rd Commit">
-      <created>1684274982982</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1684274982982</updated>
+      <workItem from="1684893088255" duration="13747000" />
     </task>
     <task id="LOCAL-00003" summary="Header CSS Configuration">
       <created>1684275389649</created>
@@ -444,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684905324699</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Adding Gallery sections">
+      <created>1684909070544</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1684909070544</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +453,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Background right-side hover effect" />
     <MESSAGE value="Opacity Reduced" />
     <MESSAGE value="About Section" />
     <MESSAGE value="About Section Done!" />
@@ -488,6 +477,7 @@
     <MESSAGE value="Adding Services Section" />
     <MESSAGE value="Adding Fonts" />
     <MESSAGE value="Adjust Fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjust Fonts" />
+    <MESSAGE value="Adding Gallery sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Gallery sections" />
   </component>
 </project>
