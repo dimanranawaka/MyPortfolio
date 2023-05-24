@@ -7,7 +7,6 @@
     <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Footer Adjustment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +92,7 @@
       <workItem from="1684509576710" duration="49000" />
       <workItem from="1684541779328" duration="820000" />
       <workItem from="1684589813956" duration="12000" />
-      <workItem from="1684893088255" duration="29193000" />
-    </task>
-    <task id="LOCAL-00009" summary="Adding js file and more">
-      <created>1684282670673</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1684282670673</updated>
+      <workItem from="1684893088255" duration="30340000" />
     </task>
     <task id="LOCAL-00010" summary="Customizing home-content">
       <created>1684282880223</created>
@@ -438,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684933100758</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Footer Adjustment">
+      <created>1684933950612</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1684933950612</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
