@@ -179,6 +179,7 @@ section {
     width: 170px;
     display: flex;
     justify-content: space-between;
+    gap: 6px;
 }
 .home-sci a{
     position: relative;
@@ -751,8 +752,9 @@ contact form.textarea-field textarea:valid~.focus{
 }
 
 .assignment .box-container .box p{
-    color:#777;
+    color:#73A9AD;
     font-size: 15px;
+    font-style: revert;
     line-height: 1.8;
 }
 
@@ -781,6 +783,7 @@ contact form.textarea-field textarea:valid~.focus{
         padding:20px;
     }
 }
+
 
 
 
