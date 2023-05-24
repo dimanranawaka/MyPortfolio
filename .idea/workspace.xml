@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adding Achivements section">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adding a Resume" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,14 +89,7 @@
       <workItem from="1684509576710" duration="49000" />
       <workItem from="1684541779328" duration="820000" />
       <workItem from="1684589813956" duration="12000" />
-      <workItem from="1684893088255" duration="31134000" />
-    </task>
-    <task id="LOCAL-00011" summary="Customizing home-content h1">
-      <created>1684283077440</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1684283077440</updated>
+      <workItem from="1684893088255" duration="31835000" />
     </task>
     <task id="LOCAL-00012" summary="Customizing home-content text animate,text animate h3">
       <created>1684283647616</created>
@@ -436,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684934957428</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Adding a Resume">
+      <created>1684938486469</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1684938486469</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +453,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Skill Section Fix Errors" />
     <MESSAGE value="Fix some bugs of entire projects" />
     <MESSAGE value="Skills Section Done!" />
     <MESSAGE value="Contact Section Done!" />
@@ -480,6 +477,7 @@
     <MESSAGE value="Adding Assignment sections" />
     <MESSAGE value="Footer Adjustment" />
     <MESSAGE value="Adding Achivements section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Achivements section" />
+    <MESSAGE value="Adding a Resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a Resume" />
   </component>
 </project>
