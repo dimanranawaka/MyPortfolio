@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Modification of Navbar">
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Download CV Button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
       <workItem from="1684509576710" duration="49000" />
       <workItem from="1684541779328" duration="820000" />
       <workItem from="1684589813956" duration="12000" />
-      <workItem from="1684893088255" duration="8264000" />
+      <workItem from="1684893088255" duration="10080000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1684273933516</created>
@@ -404,7 +406,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684901586842</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Reverse Modification of Navbar">
+      <created>1684902176782</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1684902176782</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Download CV Button">
+      <created>1684903042750</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1684903042750</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,8 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Customizing btn-hover fix" />
-    <MESSAGE value="Customizing btn-hover more" />
     <MESSAGE value="Customizing btn-hover more etc" />
     <MESSAGE value="More on hover effect" />
     <MESSAGE value="Background Image Added" />
@@ -447,6 +461,8 @@
     <MESSAGE value="Removed a text underline of a section" />
     <MESSAGE value="Removed a nav tab" />
     <MESSAGE value="Modification of Navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification of Navbar" />
+    <MESSAGE value="Reverse Modification of Navbar" />
+    <MESSAGE value="Download CV Button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Download CV Button" />
   </component>
 </project>
