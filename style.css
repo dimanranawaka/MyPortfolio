@@ -12,6 +12,8 @@
     --second-bg-color: #112e42;
     --text-color: #ededed;
     --main-color: #3FA796;
+    --big-font: 3.2rem;
+    --medium-font: 1.8rem;
     --p-font: 0.941rem;
 }
 html{
