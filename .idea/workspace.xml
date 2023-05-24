@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Update the Social Media Links">
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Add more tabs into navbar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/DevStack_Web/CSS",
+    "last_opened_file_path": "D:/WebApps/WorkZone/MyPortfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,6 +89,7 @@
       <workItem from="1684509576710" duration="49000" />
       <workItem from="1684541779328" duration="820000" />
       <workItem from="1684589813956" duration="12000" />
+      <workItem from="1684893088255" duration="2558000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1684273933516</created>
@@ -354,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684541998934</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Add more tabs into navbar">
+      <created>1684893492475</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1684893492475</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +382,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Customizing home-content text animate,text animate h3" />
     <MESSAGE value="Customizing home-content p" />
     <MESSAGE value="Customizing btn-bx" />
     <MESSAGE value="Customizing btn-bx more" />
@@ -397,6 +406,7 @@
     <MESSAGE value="Color Adjustment" />
     <MESSAGE value="Logo Text" />
     <MESSAGE value="Update the Social Media Links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update the Social Media Links" />
+    <MESSAGE value="Add more tabs into navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add more tabs into navbar" />
   </component>
 </project>
