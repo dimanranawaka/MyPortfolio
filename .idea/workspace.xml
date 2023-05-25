@@ -4,7 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adding Project Section" />
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Linking WhatsApp to Chat">
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +61,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -45,20 +93,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Desktop/portfolia 1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/WebApps/WorkZone/MyPortfolio/Assignments/JS/SPA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\CSS Framework\pos" />
@@ -91,13 +140,8 @@
       <workItem from="1684589813956" duration="12000" />
       <workItem from="1684893088255" duration="32701000" />
       <workItem from="1684942788570" duration="1839000" />
-    </task>
-    <task id="LOCAL-00015" summary="Customizing btn-bx more">
-      <created>1684284900698</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1684284900698</updated>
+      <workItem from="1684976329770" duration="228000" />
+      <workItem from="1685010503077" duration="403000" />
     </task>
     <task id="LOCAL-00016" summary="Customizing btn-hover">
       <created>1684285615413</created>
@@ -435,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684944373385</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Linking WhatsApp to Chat">
+      <created>1684976551164</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1684976551165</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +505,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Contact Section Done!" />
     <MESSAGE value="Opacity Ajust" />
     <MESSAGE value="Boostrap Assignment" />
     <MESSAGE value="Heading Hover Effect" />
@@ -479,6 +529,7 @@
     <MESSAGE value="Adding a Resume" />
     <MESSAGE value="Fixing the download Resume" />
     <MESSAGE value="Adding Project Section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Project Section" />
+    <MESSAGE value="Linking WhatsApp to Chat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linking WhatsApp to Chat" />
   </component>
 </project>
