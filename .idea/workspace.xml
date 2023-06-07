@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="JS Assignment Done!">
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="POS Assignment Done!">
       <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/bootstraps/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,14 +103,7 @@
       <workItem from="1685010503077" duration="739000" />
       <workItem from="1685052267755" duration="39000" />
       <workItem from="1686108421926" duration="659000" />
-      <workItem from="1686116557668" duration="3462000" />
-    </task>
-    <task id="LOCAL-00019" summary="Customizing btn-hover more etc">
-      <created>1684294039806</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1684294039806</updated>
+      <workItem from="1686116557668" duration="3785000" />
     </task>
     <task id="LOCAL-00020" summary="More on hover effect">
       <created>1684295006686</created>
@@ -447,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686119101092</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="POS Assignment Done!">
+      <created>1686120400799</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1686120400799</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Boostrap Assignment" />
     <MESSAGE value="Heading Hover Effect" />
     <MESSAGE value="Color Adjustment" />
     <MESSAGE value="Logo Text" />
@@ -491,6 +491,7 @@
     <MESSAGE value="Adding Project Section" />
     <MESSAGE value="Linking WhatsApp to Chat" />
     <MESSAGE value="JS Assignment Done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="JS Assignment Done!" />
+    <MESSAGE value="POS Assignment Done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="POS Assignment Done!" />
   </component>
 </project>
