@@ -4,62 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="POS Assignment Modify !">
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Calculator/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Calculator/jq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Calculator/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Calculator/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/jq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/jq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/theme.mp3" afterDir="false" />
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Knight Rider, Calculator Assignments added to site">
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Simple POS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Simple POS/jq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Simple POS/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Simple POS/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -109,7 +60,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WebApps/WorkZone/MyPortfolio/Assignments/JS/Calculator",
+    "last_opened_file_path": "D:/WebApps/WorkZone/MyPortfolio/Assignments/JS/Simple POS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -119,6 +70,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\Simple POS" />
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\Calculator" />
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\Knight_Rider" />
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\InMemory_POS" />
@@ -167,14 +119,7 @@
       <workItem from="1686124559880" duration="3932000" />
       <workItem from="1686129889637" duration="8000" />
       <workItem from="1686129920275" duration="4349000" />
-      <workItem from="1686198026948" duration="1986000" />
-    </task>
-    <task id="LOCAL-00019" summary="Customizing btn-hover more etc">
-      <created>1684294039806</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1684294039806</updated>
+      <workItem from="1686198026948" duration="4837000" />
     </task>
     <task id="LOCAL-00020" summary="More on hover effect">
       <created>1684295006686</created>
@@ -512,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686126082180</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Knight Rider, Calculator Assignments added to site">
+      <created>1686200158199</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1686200158200</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +483,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Heading Hover Effect" />
     <MESSAGE value="Color Adjustment" />
     <MESSAGE value="Logo Text" />
     <MESSAGE value="Update the Social Media Links" />
@@ -556,6 +507,7 @@
     <MESSAGE value="Linking WhatsApp to Chat" />
     <MESSAGE value="POS Assignment Done!" />
     <MESSAGE value="POS Assignment Modify !" />
-    <option name="LAST_COMMIT_MESSAGE" value="POS Assignment Modify !" />
+    <MESSAGE value="Knight Rider, Calculator Assignments added to site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Knight Rider, Calculator Assignments added to site" />
   </component>
 </project>

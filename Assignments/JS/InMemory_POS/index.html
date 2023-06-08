@@ -1,31 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="Viewport" content="Width=device-width, initial-scale=1">
-  <title>Bootstrap</title>
+  <title>Thogakade Management System</title>
   <link rel="stylesheet" href="bootstraps/css/bootstrap.css">
+  <style>
+    .container {
+      margin-top: 20px;
+    }
 
-
+    .nav-link {
+      cursor: pointer;
+    }
+  </style>
 </head>
-<body onload="getPageContent('home')">
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-  <div class="container-fluid">
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
     <a class="navbar-brand" href="#">Thogakade</a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" onclick="getPageContent('home')">Home</a>
+          <a class="nav-link active" onclick="showPage('home')">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#" onclick="getPageContent('customer')">Customer</a>
+          <a class="nav-link" onclick="showPage('customer')">Customer</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" onclick="getPageContent('item')">Item</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" onclick="getPageContent('order')">Order Details</a>
+          <a class="nav-link" onclick="showPage('item')">Item</a>
         </li>
       </ul>
     </div>
@@ -33,408 +40,426 @@
 </nav>
 
 <div id="content"></div>
+
 <script src="jq.js"></script>
 <script>
-
-  let mainArray = [];
-  var pages = {
-    'home' : `<div><div class="container text-body">
-    <div class="row mt-4">
-        <div class="col-sm-6 col-12">
-            <p style="font-size: 24px; color: #FFFFFF; background-color: #45AAF2; text-align: center; height: 50px; padding-top: 8px">Customer Details</p>
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputCusId" class="form-label">Customer ID</label>
-                    <input type="email" class="form-control" id="exampleInputCusId" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputName" class="form-label">Customer Name</label>
-                    <input type="email" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputAddress" class="form-label">Customer Address</label>
-                    <input type="email" class="form-control" id="exampleInputAddress" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputContact" class="form-label">Customer Contact</label>
-                    <input type="email" class="form-control" id="exampleInputContact" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputSalary" class="form-label">Customer Salary</label>
-                    <input type="email" class="form-control" id="exampleInputSalary" aria-describedby="emailHelp">
-                </div>
-                <div style="height: 35px"></div>
-                <div class="mb-3">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="color: white; background-color: blue">
-                                Item Code
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </form>
-        </div>
-        <div class="col-sm-6 col-12">
-            <p style="font-size: 24px; color: #FFFFFF; background-color: #45AAF2; text-align: center; height: 50px; padding-top: 8px" data-bs-theme="dark">Order Details</p>
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputOrderId" class="form-label">Order ID</label>
-                    <input type="email" class="form-control" id="exampleInputOrderId" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputQty" class="form-label">Quantity</label>
-                    <input type="email" class="form-control" id="exampleInputQty" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputDate" class="form-label">Date</label>
-                    <input type="email" class="form-control" id="exampleInputDate" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputTotalPrice" class="form-label">Total</label>
-                    <input type="email" class="form-control" id="exampleInputTotalPrice" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputCash" class="form-label">Cash</label>
-                    <input type="email" class="form-control" id="exampleInputCash" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputBalance" class="form-label">Balance</label>
-                    <input type="email" class="form-control" id="exampleInputBalance" aria-describedby="emailHelp">
-                </div>
-                <button type="submit" class="btn btn-primary" style="text-align: center; background-color: #ff253a; height: 40px; width: 150px;position: relative; left: 200px">Place Order</button>
-            </form>
-        </div>
-    </div>
-</div>
-                  <div class="container text-body mt-3">
-        <div class="row justify-content-center">
-            <div class="col-12" style="width: 1500px">
-                <table class="table">
-                    <thead>
-                    <tr style="background-color: #45AAF2; color: #FFFFFF">
-                        <th scope="col">Item Code</th>
-                        <th scope="col">Item Name</th>
-                        <th scope="col">Price</th>
-                        <th scope="col">Quantity</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div></div>`,
-    'customer' : `<div class="container text-center">
-    <div class="row">
-        <div class="col">
-                <p style="font-size: 24px; color: #FFFFFF; background-color: #45AAF2; text-align: center;height: 60px;padding-top: 8px;margin-top: 20px">Customer Details</p>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-md-2 col-0"></div>
-                        <div class="col-md-6 col-6">
-                            <form style="text-align: left">
-                                <div class="mb-3">
-                                    <label for="exampleInputCusId" class="form-label">Customer ID</label>
-                                    <input type="email" class="form-control" id="exampleInputCusId" aria-describedby="emailHelp">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputName" class="form-label">Customer Name</label>
-                                    <input type="email" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputAddress" class="form-label">Customer Address</label>
-                                    <input type="email" class="form-control" id="exampleInputAddress" aria-describedby="emailHelp">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputContact" class="form-label">Customer Contact</label>
-                                    <input type="email" class="form-control" id="exampleInputContact" aria-describedby="emailHelp">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputSalary" class="form-label">Customer Salary</label>
-                                    <input type="email" class="form-control" id="exampleInputSalary" aria-describedby="emailHelp">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-md-1 col-0"></div>
-                        <div class="col-md-3 col-6">
-                            <div style="display: flex; flex-direction: column">
-                                <div style="height: 100px"></div>
-                                <button id="search" type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 50px;font-size: 20px">search</button>
-                                <div style="height: 50px"></div>
-                                <button id="update" type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 50px;font-size: 20px;background-color: green">Update</button>
-                                <div style="height: 50px"></div>
-                                <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 50px;font-size: 20px;background-color: #ff253a">Delete</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>
-</div>
-                      <div class="container text-body">
-    <div class="row justify-content-center">
-            <table id="tbl" class="table col-12">
-                <thead>
-                <tr style="background-color: #45AAF2; color: #FFFFFF">
-                    <th scope="col">Customer ID</th>
-                    <th scope="col">Customer Name</th>
-                    <th scope="col">Customer address</th>
-                    <th scope="col">Customer Contact</th>
-                    <th scope="col">Customer Salary</th>
-                </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
-    </div>`,
-    'item' : `<div class="container text-center">
-    <div class="row">
-        <div class="col">
-                <p style="font-size: 24px; color: #FFFFFF; background-color: #45AAF2; text-align: center;height: 60px;padding-top: 8px;margin-top: 20px">Item Details</p>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-2"></div>
-                        <div class="col-6">
-                            <form style="text-align: left">
-                                <div class="mb-3">
-                                    <label for="exampleInputItemCode" class="form-label">Item Code</label>
-                                    <input type="email" class="form-control" id="exampleInputItemCode" aria-describedby="emailHelp">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputItemName" class="form-label">Item Name</label>
-                                    <input type="email" class="form-control" id="exampleInputItemName" aria-describedby="emailHelp">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputPrice" class="form-label">Item Price</label>
-                                    <input type="email" class="form-control" id="exampleInputPrice" aria-describedby="emailHelp">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputQty" class="form-label">Available Quantity</label>
-                                    <input type="email" class="form-control" id="exampleInputQty" aria-describedby="emailHelp">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-1"></div>
-                        <div class="col-3">
-                            <div style="display: flex; flex-direction: column">
-                                <div style="height: 40px"></div>
-                                <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 40px;font-size: 20px">Add</button>
-                                <div style="height: 40px"></div>
-                                <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 40px;font-size: 20px;background-color: green">Update</button>
-                                <div style="height: 40px"></div>
-                                <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 40px;font-size: 20px;background-color: yellow; color: black">Search</button>
-                                <div style="height: 40px"></div>
-                                <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 40px;font-size: 20px;background-color: #ff253a">Delete</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>
-</div>
-                  <div class="container text-body">
-    <div class="row justify-content-center">
-            <table class="table">
-                <thead>
-                <tr style="background-color: #45AAF2; color: #FFFFFF">
-                    <th scope="col">Item Code</th>
-                    <th scope="col">Item Name</th>
-                    <th scope="col">Price</th>
-                    <th scope="col">Quantity</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>`,
-    'order' : `<div class="container text-center">
-    <div class="row">
-        <div class="col align-self-center">
-                <p style="font-size: 24px; color: #FFFFFF; background-color: #45AAF2; text-align: center;height: 60px;padding-top: 8px;margin-top: 20px">Order Details</p>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-2"></div>
-                        <div class="col-6">
-                            <form style="text-align: left">
-                                <div class="mb-3">
-                                    <label for="exampleInputOrderId" class="form-label">Order ID</label>
-                                    <input type="email" class="form-control" id="exampleInputOrderId" aria-describedby="emailHelp">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputDate" class="form-label">Date</label>
-                                    <input type="email" class="form-control" id="exampleInputDate" aria-describedby="emailHelp">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputQuantity" class="form-label">Quantity</label>
-                                    <input type="email" class="form-control" id="exampleInputQuantity" aria-describedby="emailHelp">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputTotal" class="form-label">Total</label>
-                                    <input type="email" class="form-control" id="exampleInputTotal" aria-describedby="emailHelp">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputCash" class="form-label">Cash</label>
-                                    <input type="email" class="form-control" id="exampleInputCash" aria-describedby="emailHelp">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-1"></div>
-                        <div class="col-3">
-                            <div style="display: flex; flex-direction: column">
-                                <div style="height: 100px"></div>
-                                <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 50px;font-size: 20px">search</button>
-                                <div style="height: 50px"></div>
-                                <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 50px;font-size: 20px;background-color: green">Update</button>
-                                <div style="height: 50px"></div>
-                                <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 50px;font-size: 20px;background-color: #ff253a">Delete</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>
-</div>
-                   <div class="container text-body">
-    <div class="row justify-content-center">
-            <table class="table">
-                <thead>
-                <tr style="background-color: #45AAF2; color: #FFFFFF">
-                    <th scope="col">Order ID</th>
-                    <th scope="col">Date</th>
-                    <th scope="col">Quantity</th>
-                    <th scope="col">Total</th>
-                    <th scope="col">Cash</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
-                </tr>
-                </tbody>
-            </table>
-    </div>
-</div>`
-
+  const mainArray = {
+    customers: [],
+    items: []
   };
 
-  function getPageContent(page) {
-    var contentToReturn;
-
+  function showPage(page) {
+    const contentDiv = document.getElementById('content');
     switch (page) {
-      case 'home' :
-        contentToReturn = pages.home;
+      case 'home':
+        contentDiv.innerHTML = pages.home;
         break;
-      case 'customer' :
-        contentToReturn = pages.customer;
+      case 'customer':
+        contentDiv.innerHTML = pages.customer;
+        loadCustomerData();
         break;
-      case 'item' :
-        contentToReturn = pages.item;
-        break;
-      case 'order' :
-        contentToReturn = pages.order;
-        break;
-      default :
-        contentToReturn = pages.home;
+      case 'item':
+        contentDiv.innerHTML = pages.item;
+        loadItemData();
         break;
     }
-    document.getElementById('content').innerHTML = contentToReturn;
-
-    $("#search").click(function () {
-      $("#tbl").empty();
-      for (let i = 0; i < mainArray.length; i++) {
-        let id = mainArray[i].id;
-        let name = mainArray[i].name;
-        let address = mainArray[i].address;
-        let contact = mainArray[i].contact;
-        let salary = mainArray[i].salary;
-
-        let row = $("<tr></tr>");
-        row.append($("<td></td>").text(id));
-        row.append($("<td></td>").text(name));
-        row.append($("<td></td>").text(address));
-        row.append($("<td></td>").text(contact));
-        row.append($("<td></td>").text(salary));
-
-        $("#tbl").append(row);
-      }
-    });
-
-
-
-    /* var customer = {id,name,address,contact,salary};
-     let tr ="<tr><td>"+customer.id+"</td><td>"+customer.name+"</td><td>"+customer.address+"</td><td>"+customer.contact
-             +"</td><td>"+customer.salary+"</td></tr>";
-     $("tbl").append(tr);*/
-      /*let customer = [id,name,address,contact,salary];
-      mainArray.push(customer);*/
-
-      $("#update").click(function () {
-        let id = $("#exampleInputCusId").val();
-        let name = $("#exampleInputName").val();
-        let address = $("#exampleInputAddress").val();
-        let contact = $("#exampleInputContact").val();
-        let salary = $("#exampleInputSalary").val();
-
-        let customer = {
-          id:id,
-          name:name,
-          address:address,
-          contact:contact,
-          salary:salary
-        };
-        mainArray.push(customer)
-      })
-
   }
 
+  function loadCustomerData() {
+    const tblBody = document.getElementById('tblCustomers');
+    tblBody.innerHTML = '';
+    mainArray.customers.forEach(function (customer) {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+          <td>${customer.customerId}</td>
+          <td>${customer.customerName}</td>
+          <td>${customer.customerAddress}</td>
+          <td>${customer.customerContact}</td>
+          <td>${customer.customerSalary}</td>
+          <td>
+            <button class="btn btn-sm btn-danger" onclick="deleteCustomer(${customer.customerId})">Delete</button>
+            <button class="btn btn-sm btn-info" onclick="editCustomer(${customer.customerId})">Edit</button>
+          </td>
+        `;
+      tblBody.appendChild(row);
+    });
+  }
 
+  function addCustomer() {
+    const customerId = document.getElementById('exampleInputCustomerId').value;
+    const customerName = document.getElementById('exampleInputCustomerName').value;
+    const customerAddress = document.getElementById('exampleInputCustomerAddress').value;
+    const customerContact = document.getElementById('exampleInputCustomerContact').value;
+    const customerSalary = document.getElementById('exampleInputCustomerSalary').value;
+
+    const customer = {
+      customerId,
+      customerName,
+      customerAddress,
+      customerContact,
+      customerSalary
+    };
+
+    mainArray.customers.push(customer);
+    loadCustomerData();
+    resetCustomerForm();
+  }
+
+  function deleteCustomer(customerId) {
+    const index = mainArray.customers.findIndex(function (customer) {
+      return customer.customerId == customerId;
+    });
+
+    if (index !== -1) {
+      mainArray.customers.splice(index, 1);
+      loadCustomerData();
+    }
+  }
+
+  function editCustomer(customerId) {
+    const customer = mainArray.customers.find(function (customer) {
+      return customer.customerId == customerId;
+    });
+
+    if (customer) {
+      document.getElementById('exampleInputCustomerId').value = customer.customerId;
+      document.getElementById('exampleInputCustomerName').value = customer.customerName;
+      document.getElementById('exampleInputCustomerAddress').value = customer.customerAddress;
+      document.getElementById('exampleInputCustomerContact').value = customer.customerContact;
+      document.getElementById('exampleInputCustomerSalary').value = customer.customerSalary;
+    }
+  }
+
+  function updateCustomer() {
+    const customerId = document.getElementById('exampleInputCustomerId').value;
+    const customerName = document.getElementById('exampleInputCustomerName').value;
+    const customerAddress = document.getElementById('exampleInputCustomerAddress').value;
+    const customerContact = document.getElementById('exampleInputCustomerContact').value;
+    const customerSalary = document.getElementById('exampleInputCustomerSalary').value;
+
+    const customer = {
+      customerId,
+      customerName,
+      customerAddress,
+      customerContact,
+      customerSalary
+    };
+
+    const index = mainArray.customers.findIndex(function (customer) {
+      return customer.customerId == customerId;
+    });
+
+    if (index !== -1) {
+      mainArray.customers.splice(index, 1, customer);
+      loadCustomerData();
+      resetCustomerForm();
+    }
+  }
+
+  function resetCustomerForm() {
+    document.getElementById('exampleInputCustomerId').value = '';
+    document.getElementById('exampleInputCustomerName').value = '';
+    document.getElementById('exampleInputCustomerAddress').value = '';
+    document.getElementById('exampleInputCustomerContact').value = '';
+    document.getElementById('exampleInputCustomerSalary').value = '';
+  }
+
+  function searchCustomer() {
+    const searchValue = document.getElementById('searchCustomer').value.toLowerCase();
+    const filteredCustomers = mainArray.customers.filter(function (customer) {
+      return (
+              customer.customerId.toLowerCase().includes(searchValue) ||
+              customer.customerName.toLowerCase().includes(searchValue) ||
+              customer.customerAddress.toLowerCase().includes(searchValue) ||
+              customer.customerContact.toLowerCase().includes(searchValue)
+      );
+    });
+
+    const tblBody = document.getElementById('tblCustomers');
+    tblBody.innerHTML = '';
+
+    filteredCustomers.forEach(function (customer) {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+          <td>${customer.customerId}</td>
+          <td>${customer.customerName}</td>
+          <td>${customer.customerAddress}</td>
+          <td>${customer.customerContact}</td>
+          <td>${customer.customerSalary}</td>
+          <td>
+            <button class="btn btn-sm btn-danger" onclick="deleteCustomer(${customer.customerId})">Delete</button>
+            <button class="btn btn-sm btn-info" onclick="editCustomer(${customer.customerId})">Edit</button>
+          </td>
+        `;
+      tblBody.appendChild(row);
+    });
+  }
+
+  function loadItemData() {
+    const tblBody = document.getElementById('tblItems');
+    tblBody.innerHTML = '';
+    mainArray.items.forEach(function (item) {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+          <td>${item.itemCode}</td>
+          <td>${item.itemName}</td>
+          <td>${item.itemPrice}</td>
+          <td>${item.itemQuantity}</td>
+          <td>
+            <button class="btn btn-sm btn-danger" onclick="deleteItem(${item.itemCode})">Delete</button>
+            <button class="btn btn-sm btn-info" onclick="editItem(${item.itemCode})">Edit</button>
+          </td>
+        `;
+      tblBody.appendChild(row);
+    });
+  }
+
+  function addItem() {
+    const itemCode = document.getElementById('exampleInputItemCode').value;
+    const itemName = document.getElementById('exampleInputItemName').value;
+    const itemPrice = document.getElementById('exampleInputItemPrice').value;
+    const itemQuantity = document.getElementById('exampleInputItemQuantity').value;
+
+    const item = {
+      itemCode,
+      itemName,
+      itemPrice,
+      itemQuantity
+    };
+
+    mainArray.items.push(item);
+    loadItemData();
+    resetItemForm();
+  }
+
+  function deleteItem(itemCode) {
+    const index = mainArray.items.findIndex(function (item) {
+      return item.itemCode == itemCode;
+    });
+
+    if (index !== -1) {
+      mainArray.items.splice(index, 1);
+      loadItemData();
+    }
+  }
+
+  function editItem(itemCode) {
+    const item = mainArray.items.find(function (item) {
+      return item.itemCode == itemCode;
+    });
+
+    if (item) {
+      document.getElementById('exampleInputItemCode').value = item.itemCode;
+      document.getElementById('exampleInputItemName').value = item.itemName;
+      document.getElementById('exampleInputItemPrice').value = item.itemPrice;
+      document.getElementById('exampleInputItemQuantity').value = item.itemQuantity;
+    }
+  }
+
+  function updateItem() {
+    const itemCode = document.getElementById('exampleInputItemCode').value;
+    const itemName = document.getElementById('exampleInputItemName').value;
+    const itemPrice = document.getElementById('exampleInputItemPrice').value;
+    const itemQuantity = document.getElementById('exampleInputItemQuantity').value;
+
+    const item = {
+      itemCode,
+      itemName,
+      itemPrice,
+      itemQuantity
+    };
+
+    const index = mainArray.items.findIndex(function (item) {
+      return item.itemCode == itemCode;
+    });
+
+    if (index !== -1) {
+      mainArray.items.splice(index, 1, item);
+      loadItemData();
+      resetItemForm();
+    }
+  }
+
+  function resetItemForm() {
+    document.getElementById('exampleInputItemCode').value = '';
+    document.getElementById('exampleInputItemName').value = '';
+    document.getElementById('exampleInputItemPrice').value = '';
+    document.getElementById('exampleInputItemQuantity').value = '';
+  }
+
+  function searchItem() {
+    const searchValue = document.getElementById('searchItem').value.toLowerCase();
+    const filteredItems = mainArray.items.filter(function (item) {
+      return (
+              item.itemCode.toLowerCase().includes(searchValue) ||
+              item.itemName.toLowerCase().includes(searchValue)
+      );
+    });
+
+    const tblBody = document.getElementById('tblItems');
+    tblBody.innerHTML = '';
+
+    filteredItems.forEach(function (item) {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+          <td>${item.itemCode}</td>
+          <td>${item.itemName}</td>
+          <td>${item.itemPrice}</td>
+          <td>${item.itemQuantity}</td>
+          <td>
+            <button class="btn btn-sm btn-danger" onclick="deleteItem(${item.itemCode})">Delete</button>
+            <button class="btn btn-sm btn-info" onclick="editItem(${item.itemCode})">Edit</button>
+          </td>
+        `;
+      tblBody.appendChild(row);
+    });
+  }
+
+  function placeOrder() {
+    const orderId = document.getElementById('orderId').value;
+    const quantity = document.getElementById('quantity').value;
+    const date = document.getElementById('date').value;
+    const total = document.getElementById('total').value;
+    const cash = document.getElementById('cash').value;
+    const balance = document.getElementById('balance');
+
+    const order = {
+      orderId,
+      quantity,
+      date,
+      total,
+      cash,
+      balance: cash - total
+    };
+
+    balance.value = order.balance;
+  }
+
+  const pages = {
+    home: `
+        <div class="container">
+          <h2>Home</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="orderId" class="form-label">Order ID</label>
+                <input type="text" class="form-control" id="orderId">
+              </div>
+              <div class="mb-3">
+                <label for="quantity" class="form-label">Quantity</label>
+                <input type="number" class="form-control" id="quantity">
+              </div>
+              <div class="mb-3">
+                <label for="date" class="form-label">Date</label>
+                <input type="date" class="form-control" id="date">
+              </div>
+              <div class="mb-3">
+                <label for="total" class="form-label">Total</label>
+                <input type="number" class="form-control" id="total">
+              </div>
+              <div class="mb-3">
+                <label for="cash" class="form-label">Cash</label>
+                <input type="number" class="form-control" id="cash">
+              </div>
+              <div class="mb-3">
+                <label for="balance" class="form-label">Balance</label>
+                <input type="number" class="form-control" id="balance" disabled>
+              </div>
+              <button class="btn btn-primary" onclick="placeOrder()">Place Order</button>
+            </div>
+          </div>
+        </div>
+      `,
+    customer: `
+        <div class="container">
+          <h2>Customer</h2>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="searchCustomer" placeholder="Search by ID, Name, Address, or Contact"
+              onkeyup="searchCustomer()">
+          </div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Customer ID</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Contact</th>
+                <th>Salary</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="tblCustomers"></tbody>
+          </table>
+          <h4>Add Customer</h4>
+          <div class="mb-3">
+            <label for="exampleInputCustomerId" class="form-label">Customer ID</label>
+            <input type="text" class="form-control" id="exampleInputCustomerId">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputCustomerName" class="form-label">Name</label>
+            <input type="text" class="form-control" id="exampleInputCustomerName">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputCustomerAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="exampleInputCustomerAddress">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputCustomerContact" class="form-label">Contact</label>
+            <input type="text" class="form-control" id="exampleInputCustomerContact">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputCustomerSalary" class="form-label">Salary</label>
+            <input type="number" class="form-control" id="exampleInputCustomerSalary">
+          </div>
+          <button class="btn btn-primary" onclick="addCustomer()">Add Customer</button>
+          <button class="btn btn-secondary" onclick="updateCustomer()">Update Customer</button>
+          <button class="btn btn-light" onclick="resetCustomerForm()">Reset</button>
+        </div>
+      `,
+    item: `
+        <div class="container">
+          <h2>Item</h2>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="searchItem" placeholder="Search by Code or Name" onkeyup="searchItem()">
+          </div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Item Code</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="tblItems"></tbody>
+          </table>
+          <h4>Add Item</h4>
+          <div class="mb-3">
+            <label for="exampleInputItemCode" class="form-label">Item Code</label>
+            <input type="text" class="form-control" id="exampleInputItemCode">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputItemName" class="form-label">Name</label>
+            <input type="text" class="form-control" id="exampleInputItemName">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputItemPrice" class="form-label">Price</label>
+            <input type="number" class="form-control" id="exampleInputItemPrice">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputItemQuantity" class="form-label">Quantity</label>
+            <input type="number" class="form-control" id="exampleInputItemQuantity">
+          </div>
+          <button class="btn btn-primary" onclick="addItem()">Add Item</button>
+          <button class="btn btn-secondary" onclick="updateItem()">Update Item</button>
+          <button class="btn btn-light" onclick="resetItemForm()">Reset</button>
+        </div>
+      `
+  };
+
+  showPage('home');
 </script>
-<script src="bootstraps/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
