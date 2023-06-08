@@ -4,53 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Linking WhatsApp to Chat">
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/bootstraps/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/SPA/index.html" afterDir="false" />
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="POS Assignment Modify !">
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Calculator/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Calculator/jq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Calculator/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Calculator/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/jq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/bootstraps/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/jq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/Knight_Rider/theme.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +69,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -100,7 +109,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WebApps/WorkZone/MyPortfolio/Assignments/JS/SPA",
+    "last_opened_file_path": "D:/WebApps/WorkZone/MyPortfolio/Assignments/JS/Calculator",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -110,11 +119,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\Calculator" />
+      <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\Knight_Rider" />
+      <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\InMemory_POS" />
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\CSS Framework\pos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\CSS Framework\pos\bootstraps\css" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyPortfolio/Assignments/JS/SPA/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -142,27 +164,10 @@
       <workItem from="1684942788570" duration="1839000" />
       <workItem from="1684976329770" duration="228000" />
       <workItem from="1685010503077" duration="403000" />
-    </task>
-    <task id="LOCAL-00016" summary="Customizing btn-hover">
-      <created>1684285615413</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1684285615413</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Customizing btn-hover fix">
-      <created>1684285756676</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1684285756676</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Customizing btn-hover more">
-      <created>1684289049336</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1684289049336</updated>
+      <workItem from="1686124559880" duration="3932000" />
+      <workItem from="1686129889637" duration="8000" />
+      <workItem from="1686129920275" duration="4349000" />
+      <workItem from="1686198026948" duration="1986000" />
     </task>
     <task id="LOCAL-00019" summary="Customizing btn-hover more etc">
       <created>1684294039806</created>
@@ -486,7 +491,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684976551165</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="POS Assignment Done!">
+      <created>1686120520581</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1686120520581</updated>
+    </task>
+    <task id="LOCAL-00066" summary="POS Assignment Done!">
+      <created>1686120921610</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1686120921610</updated>
+    </task>
+    <task id="LOCAL-00067" summary="POS Assignment Modify !">
+      <created>1686126082180</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1686126082180</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,8 +531,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Opacity Ajust" />
-    <MESSAGE value="Boostrap Assignment" />
     <MESSAGE value="Heading Hover Effect" />
     <MESSAGE value="Color Adjustment" />
     <MESSAGE value="Logo Text" />
@@ -530,6 +554,8 @@
     <MESSAGE value="Fixing the download Resume" />
     <MESSAGE value="Adding Project Section" />
     <MESSAGE value="Linking WhatsApp to Chat" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linking WhatsApp to Chat" />
+    <MESSAGE value="POS Assignment Done!" />
+    <MESSAGE value="POS Assignment Modify !" />
+    <option name="LAST_COMMIT_MESSAGE" value="POS Assignment Modify !" />
   </component>
 </project>

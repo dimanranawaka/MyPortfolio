@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="calculator">
+  <input type="text" id="result" readonly>
+  <table>
+    <tr>
+      <td><button class="operator">C</button></td>
+      <td><button class="operator">CE</button></td>
+      <td><button class="operator">%</button></td>
+      <td><button class="operator">/</button></td>
+    </tr>
+    <tr>
+      <td><button class="number">7</button></td>
+      <td><button class="number">8</button></td>
+      <td><button class="number">9</button></td>
+      <td><button class="operator">*</button></td>
+    </tr>
+    <tr>
+      <td><button class="number">4</button></td>
+      <td><button class="number">5</button></td>
+      <td><button class="number">6</button></td>
+      <td><button class="operator">-</button></td>
+    </tr>
+    <tr>
+      <td><button class="number">1</button></td>
+      <td><button class="number">2</button></td>
+      <td><button class="number">3</button></td>
+      <td><button class="operator">+</button></td>
+    </tr>
+    <tr>
+      <td colspan="2"><button class="number">0</button></td>
+      <td><button class="operator">.</button></td>
+      <td><button id="calculate">=</button></td>
+    </tr>
+  </table>
+</div>
+
+<script src="jq.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

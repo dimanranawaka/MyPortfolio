@@ -35,6 +35,8 @@
 <div id="content"></div>
 <script src="jq.js"></script>
 <script>
+
+  let mainArray = [];
   var pages = {
     'home' : `<div><div class="container text-body">
     <div class="row mt-4">
@@ -171,7 +173,7 @@
                                 <div style="height: 100px"></div>
                                 <button id="search" type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 50px;font-size: 20px">search</button>
                                 <div style="height: 50px"></div>
-                                <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 50px;font-size: 20px;background-color: green">Update</button>
+                                <button id="update" type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 50px;font-size: 20px;background-color: green">Update</button>
                                 <div style="height: 50px"></div>
                                 <button type="submit" class="btn btn-primary" style="text-align: center; width: 120px; height: 50px;font-size: 20px;background-color: #ff253a">Delete</button>
                             </div>
@@ -383,17 +385,51 @@
     document.getElementById('content').innerHTML = contentToReturn;
 
     $("#search").click(function () {
-      let id = $("#exampleInputCusId").val();
-      let name = $("#exampleInputName").val();
-      let address = $("#exampleInputAddress").val();
-      let contact = $("#exampleInputContact").val();
-      let salary = $("#exampleInputSalary").val();
+      $("#tbl").empty();
+      for (let i = 0; i < mainArray.length; i++) {
+        let id = mainArray[i].id;
+        let name = mainArray[i].name;
+        let address = mainArray[i].address;
+        let contact = mainArray[i].contact;
+        let salary = mainArray[i].salary;
 
-      var customer = {id,name,address,contact,salary};
-      let tr ="<tr><td>"+customer.id+"</td><td>"+customer.name+"</td><td>"+customer.address+"</td><td>"+customer.contact
-              +"</td><td>"+customer.salary+"</td></tr>";
-      $("tbl").append(tr);
+        let row = $("<tr></tr>");
+        row.append($("<td></td>").text(id));
+        row.append($("<td></td>").text(name));
+        row.append($("<td></td>").text(address));
+        row.append($("<td></td>").text(contact));
+        row.append($("<td></td>").text(salary));
+
+        $("#tbl").append(row);
+      }
     });
+
+
+
+    /* var customer = {id,name,address,contact,salary};
+     let tr ="<tr><td>"+customer.id+"</td><td>"+customer.name+"</td><td>"+customer.address+"</td><td>"+customer.contact
+             +"</td><td>"+customer.salary+"</td></tr>";
+     $("tbl").append(tr);*/
+      /*let customer = [id,name,address,contact,salary];
+      mainArray.push(customer);*/
+
+      $("#update").click(function () {
+        let id = $("#exampleInputCusId").val();
+        let name = $("#exampleInputName").val();
+        let address = $("#exampleInputAddress").val();
+        let contact = $("#exampleInputContact").val();
+        let salary = $("#exampleInputSalary").val();
+
+        let customer = {
+          id:id,
+          name:name,
+          address:address,
+          contact:contact,
+          salary:salary
+        };
+        mainArray.push(customer)
+      })
+
   }
 
 
