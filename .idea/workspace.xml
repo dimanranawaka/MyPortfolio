@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Modify InMemory_POS">
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/style.css" afterDir="false" />
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Recreating InMemory_POS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/jq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,14 +120,7 @@
       <workItem from="1686213317113" duration="24000" />
       <workItem from="1686249867289" duration="123000" />
       <workItem from="1686309524544" duration="15000" />
-      <workItem from="1687271117755" duration="7279000" />
-    </task>
-    <task id="LOCAL-00021" summary="Background Image Added">
-      <created>1684296572329</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1684296572329</updated>
+      <workItem from="1687271117755" duration="15436000" />
     </task>
     <task id="LOCAL-00022" summary="Background right-side hover effect">
       <created>1684297009364</created>
@@ -466,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686203727082</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Recreating InMemory_POS">
+      <created>1687282598320</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1687282598320</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +484,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Logo Text" />
     <MESSAGE value="Update the Social Media Links" />
     <MESSAGE value="Add more tabs into navbar" />
     <MESSAGE value="Adding a footer" />
@@ -510,6 +508,7 @@
     <MESSAGE value="POS Assignment Modify !" />
     <MESSAGE value="Knight Rider, Calculator Assignments added to site" />
     <MESSAGE value="Modify InMemory_POS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify InMemory_POS" />
+    <MESSAGE value="Recreating InMemory_POS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recreating InMemory_POS" />
   </component>
 </project>
