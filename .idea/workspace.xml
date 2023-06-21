@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Recreating InMemory_POS">
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adding Boostrap">
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/common/commonMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/controllers/CustomerManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/controllers/dashboardFormController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/db/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/model/Customer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/model/Item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -50,28 +55,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Network/ChatApp_CourseWork/ChatApp_JavaSocket&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/WebApps/WorkZone/MyPortfolio/Assignments/JS/InMemory_POS/controllers",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\InMemory_POS\controllers" />
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\Simple POS" />
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\Calculator" />
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\Knight_Rider" />
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\InMemory_POS" />
-      <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\CSS Framework\pos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\CSS Framework\pos\bootstraps\css" />
@@ -121,14 +127,7 @@
       <workItem from="1686249867289" duration="123000" />
       <workItem from="1686309524544" duration="15000" />
       <workItem from="1687271117755" duration="18083000" />
-      <workItem from="1687315713202" duration="7752000" />
-    </task>
-    <task id="LOCAL-00023" summary="Opacity Reduced">
-      <created>1684301387190</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1684301387190</updated>
+      <workItem from="1687315713202" duration="29984000" />
     </task>
     <task id="LOCAL-00024" summary="About Section">
       <created>1684307181312</created>
@@ -466,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687292644177</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Adding Boostrap">
+      <created>1687327421273</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1687327421273</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +491,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update the Social Media Links" />
     <MESSAGE value="Add more tabs into navbar" />
     <MESSAGE value="Adding a footer" />
     <MESSAGE value="Removed a text underline of a section" />
@@ -510,6 +515,7 @@
     <MESSAGE value="Knight Rider, Calculator Assignments added to site" />
     <MESSAGE value="Modify InMemory_POS" />
     <MESSAGE value="Recreating InMemory_POS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recreating InMemory_POS" />
+    <MESSAGE value="Adding Boostrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Boostrap" />
   </component>
 </project>
