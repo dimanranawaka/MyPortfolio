@@ -51,5 +51,88 @@
         </nav>
 
     </header>
+
+    <!-- Configure Items form -->
+    <section class="container-fluid" id="itemForm" style="display: none">
+
+        <section class="row mt-0 justify-content-around" style="margin-right: 0; margin-left: 0">
+            <div class="col-12 col-md-5 mt-5">
+                <!-- Left section of the item form -->
+
+
+                <div class="pt-3 pb-5 px-3 py-3 mt-2 mainLoader">
+                    <!-- Loader container for item form -->
+
+                    <!-- Manage items heading -->
+                    <h1 class="h1 mb-3" style="font-family: 'Kanit', sans-serif;color: #2d6a0a; font-weight: bold ">Manage
+                        Items</h1>
+                    <div class="mb-3">
+
+                        <!-- Search item label -->
+                        <label class="form-label" for="srcItemID" style="color: #235915; font-weight: bold">Search
+                            Item here</label>
+
+                        <!-- Item search input field -->
+                        <input class="searchFld form-control" id="srcItemID" placeholder="Item ID" type="text">
+
+                    </div>
+                    <!-- Buttons for item management -->
+
+                    <!-- Add item button -->
+                    <button class="btn btnBackGround m-lg-2" id="addItemBtn"
+                            style="background-color: #2ed573; color: black; font-weight: bold"
+                            type="button">Add Item
+                    </button>
+                    <!-- Update item button -->
+                    <button class="btn btnBackGround m-lg-2" id="updateItemBtn"
+                            style="background-color: #eccc68; color: black;font-weight: bold;"
+                            type="button">Update Item
+                    </button>
+                    <!-- Delete item button -->
+                    <button class="btn btnBackGround m-lg-2" id="deleteItemBtn"
+                            style="background-color: #ff4757; color: black;font-weight: bold;"
+                            type="button">Delete Item
+                    </button>
+
+                </div>
+            </div>
+
+            <!-- Right section of the item form -->
+            <div class="col-12 col-md-5 mt-3 textFldPanes">
+
+                <!-- Item ID field -->
+                <div class="mb-3">
+                    <label class="form-label " for="itemIdTxt">Item Id</label>
+                    <input class="form-control " disabled id="itemIdTxt" placeholder="Item ID" type="text">
+                    <p><small class="text-danger fw-bold" id="itemIdTxtLbl"></small></p>
+                </div>
+
+                <!-- Item name field -->
+                <div class="mb-3">
+                    <label class="form-label" for="ItemNameTxt">Item Name</label>
+                    <input class="form-control" id="ItemNameTxt" placeholder="Item Name" type="text">
+                    <p><small class="text-danger fw-bold" id="itemNameTxtLbl"></small></p>
+                </div>
+
+                <!-- Item quantity field -->
+                <div class="mb-3">
+                    <label class="form-label" for="itemQtyTxt">Item Qty</label>
+                    <input class="form-control" id="itemQtyTxt" placeholder="Item Qty" type="text">
+                    <p><small class="text-danger fw-bold" id="itemQtyTxtLbl"></small></p>
+                </div>
+
+                <!-- Item unit price field -->
+                <div class="mb-3">
+                    <label class="form-label" for="unitPriceTxt">Unit Price</label>
+                    <input class="form-control" id="unitPriceTxt" placeholder="Unit Price" type="text">
+                    <p><small class="text-danger fw-bold" id="itemUnitPriceTxtLbl"></small></p>
+                </div>
+
+            </div>
+
+        </section>
+    </section>
+
+
 </body>
 </html>
