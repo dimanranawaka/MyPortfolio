@@ -1,186 +1,195 @@
-/* Reset some default browser styles */
-html, body, ul {
-    margin: 0;
-    padding: 0;
-}
+/*!* Global styles *!*/
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
 
-/* Apply some basic styling */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
-    background-color: #f1f1f1;
-}
+/*.container {*/
+/*    max-width: 1200px;*/
+/*    margin: 0 auto;*/
+/*    padding: 20px;*/
+/*}*/
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
+/*!* Header styles *!*/
+/*header {*/
+/*    background-color: #333;*/
+/*    color: #fff;*/
+/*    padding: 10px;*/
+/*}*/
 
-/* Header and navigation styles */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-}
+/*nav ul {*/
+/*    list-style-type: none;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
+/*nav ul li {*/
+/*    display: inline;*/
+/*    margin-right: 10px;*/
+/*}*/
 
-nav ul li {
-    margin-right: 10px;
-}
+/*nav ul li a {*/
+/*    color: #fff;*/
+/*    text-decoration: none;*/
+/*    padding: 5px;*/
+/*}*/
 
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
+/*nav ul li.active a {*/
+/*    font-weight: bold;*/
+/*}*/
 
-nav ul li a:hover {
-    background-color: #555;
-}
+/*!* Tab content styles *!*/
+/*.tab-content {*/
+/*    margin-top: 20px;*/
+/*}*/
 
-nav ul li.active a {
-    background-color: #555;
-}
+/*.tab-content .options {*/
+/*    margin-bottom: 40px;*/
+/*}*/
 
-/* Customer form styles */
-.customer-form {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 20px;
-}
+/*.tab-content .options label {*/
+/*    display: block;*/
+/*    margin-bottom: 15px;*/
+/*    font-weight: bold;*/
+/*}*/
 
-.customer-management {
-    flex: 1;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+/*!* Customer table styles *!*/
+/*table {*/
+/*    width: 100%;*/
+/*    border-collapse: collapse;*/
+/*}*/
 
-.customer-management h1 {
-    margin-bottom: 10px;
-    font-size: 24px;
-}
+/*table th,*/
+/*table td {*/
+/*    border: 1px solid #ccc;*/
+/*    padding: 12px;*/
+/*    text-align: left;*/
+/*}*/
 
-.search-customer {
-    margin-bottom: 20px;
-}
+/*!* Customer form styles *!*/
+/*.customer-form {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    margin-bottom: 40px;*/
+/*}*/
 
-.search-customer label {
-    display: block;
-    font-weight: bold;
-}
+/*.customer-details {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(2, 1fr);*/
+/*    gap: 20px;*/
+/*}*/
 
-.search-customer input[type="text"] {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
+/*!* Item table styles *!*/
+/*.item-table table {*/
+/*    width: 100%;*/
+/*    border-collapse: collapse;*/
+/*}*/
 
-.customer-management button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: background-color 0.3s ease;
-}
+/*.item-table table th,*/
+/*.item-table table td {*/
+/*    border: 1px solid #ccc;*/
+/*    padding: 12px;*/
+/*    text-align: left;*/
+/*}*/
 
-.customer-management button:hover {
-    cursor: pointer;
-}
+/*!* Item form styles *!*/
+/*.item-form {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    margin-bottom: 40px;*/
+/*}*/
 
-.customer-management #addCustomerBtn {
-    background-color: #4caf50;
-    color: #fff;
-}
+/*.item-details {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(2, 1fr);*/
+/*    gap: 20px;*/
+/*}*/
 
-.customer-management #updateCustomerBtn {
-    background-color: #007bff;
-    color: #fff;
-}
+/*!* Orders section styles *!*/
+/*.card {*/
+/*    margin-bottom: 40px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 5px;*/
+/*    overflow: hidden;*/
+/*}*/
 
-.customer-management #deleteCustomerBtn {
-    background-color: #dc3545;
-    color: #fff;
-}
+/*.card-header {*/
+/*    background-color: #333;*/
+/*    color: #fff;*/
+/*    padding: 16px;*/
+/*}*/
 
-/* Customer details styles */
-.customer-details {
-    flex: 1;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+/*.card-body {*/
+/*    padding: 16px;*/
+/*}*/
 
-.form-field {
-    margin-bottom: 20px;
-}
+/*.form-group {*/
+/*    margin-bottom: 20px;*/
+/*}*/
 
-.form-field label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
+/*!* Button styles *!*/
+/*.btn {*/
+/*    display: inline-block;*/
+/*    padding: 12px 24px;*/
+/*    border-radius: 4px;*/
+/*    font-weight: bold;*/
+/*    cursor: pointer;*/
+/*    transition: background-color 0.3s ease;*/
+/*}*/
 
-.form-field input[type="text"] {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
+/*.btn-success {*/
+/*    background-color: #00b894;*/
+/*    color: #fff;*/
+/*}*/
 
-.form-field .error {
-    color: red;
-    font-size: 12px;
-}
+/*.btn-warning {*/
+/*    background-color: #ff9f43;*/
+/*    color: #fff;*/
+/*}*/
 
-/* Customer table styles */
-.customer-table table {
-    width: 100%;
-    border-collapse: collapse;
-}
+/*.btn-danger {*/
+/*    background-color: #d63031;*/
+/*    color: #fff;*/
+/*}*/
 
-.customer-table th,
-.customer-table td {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    text-align: left;
-}
+/*.btn-outline-primary {*/
+/*    background-color: transparent;*/
+/*    color: #0984e3;*/
+/*    border: 2px solid #0984e3;*/
+/*}*/
 
-.customer-table th {
-    background-color: #f0f0f0;
-    font-weight: bold;
-}
+/*.btn-outline-primary:hover {*/
+/*    background-color: #0984e3;*/
+/*    color: #fff;*/
+/*}*/
 
-/* Danger button styles */
-.danger {
-    background-color: #dc3545;
-    color: #fff;
-}
+/*!* Table styles *!*/
+/*table.table {*/
+/*    width: 100%;*/
+/*    border-collapse: collapse;*/
+/*}*/
 
-.danger:hover {
-    background-color: #c82333;
-}
+/*.table th,*/
+/*.table td {*/
+/*    border: 1px solid #ccc;*/
+/*    padding: 12px;*/
+/*    text-align: left;*/
+/*}*/
 
-/* Hover effects */
-a:hover {
-    text-decoration: underline;
-}
+/*!* Hover effects *!*/
+/*.btn:hover {*/
+/*    transform: translateY(-2px);*/
+/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+/*}*/
 
-/* Rest of the CSS code */
+/*table.table-hover tbody tr:hover {*/
+/*    background-color: #f5f5f5;*/
+/*    cursor: pointer;*/
+/*    transform: scale(1.02);*/
+/*    transition: background-color 0.3s ease, transform 0.3s ease;*/
+/*}*/
