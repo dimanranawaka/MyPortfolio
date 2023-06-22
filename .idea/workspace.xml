@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adding Boostrap">
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/common/commonMethods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/controllers/CustomerManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/controllers/dashboardFormController.js" afterDir="false" />
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adding NavigationController">
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/commonCodes/commonMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/controllers/customerManager.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/db/db.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/model/Customer.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/model/Item.js" afterDir="false" />
@@ -55,29 +54,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WebApps/WorkZone/MyPortfolio/Assignments/JS/InMemory_POS/controllers",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WebApps/WorkZone/MyPortfolio/Assignments/JS/InMemory_POS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\InMemory_POS" />
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\InMemory_POS\controllers" />
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\Simple POS" />
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\Calculator" />
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\Knight_Rider" />
-      <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\JS\InMemory_POS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WebApps\WorkZone\MyPortfolio\Assignments\CSS Framework\pos\bootstraps\css" />
@@ -128,55 +127,8 @@
       <workItem from="1686309524544" duration="15000" />
       <workItem from="1687271117755" duration="18083000" />
       <workItem from="1687315713202" duration="29984000" />
-    </task>
-    <task id="LOCAL-00024" summary="About Section">
-      <created>1684307181312</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1684307181312</updated>
-    </task>
-    <task id="LOCAL-00025" summary="About Section">
-      <created>1684307187965</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1684307187965</updated>
-    </task>
-    <task id="LOCAL-00026" summary="About Section Done!">
-      <created>1684374487927</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1684374487927</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Skill Section">
-      <created>1684376841912</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1684376841912</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Skill Section Fix Errors">
-      <created>1684379782311</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1684379782311</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Fix some bugs of entire projects">
-      <created>1684384406256</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1684384406256</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Skills Section Done!">
-      <created>1684386585404</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1684386585404</updated>
+      <workItem from="1687379437735" duration="10829000" />
+      <workItem from="1687397463122" duration="1411000" />
     </task>
     <task id="LOCAL-00031" summary="Contact Section Done!">
       <created>1684390879783</created>
@@ -472,7 +424,56 @@
       <option name="project" value="LOCAL" />
       <updated>1687327421273</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Restructure Index.html">
+      <created>1687382876769</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1687382876769</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Configure Items Form">
+      <created>1687383756726</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1687383756726</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Configure Table">
+      <created>1687384764369</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1687384764369</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Configure Customer Section">
+      <created>1687385740464</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1687385740464</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Configure Order Section">
+      <created>1687389415160</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1687389415160</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Customizing Home Page">
+      <created>1687390076586</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1687390076586</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Adding NavigationController">
+      <created>1687391008060</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1687391008060</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,13 +492,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add more tabs into navbar" />
-    <MESSAGE value="Adding a footer" />
-    <MESSAGE value="Removed a text underline of a section" />
-    <MESSAGE value="Removed a nav tab" />
-    <MESSAGE value="Modification of Navbar" />
-    <MESSAGE value="Reverse Modification of Navbar" />
-    <MESSAGE value="Download CV Button" />
     <MESSAGE value="Adding Services Section" />
     <MESSAGE value="Adding Fonts" />
     <MESSAGE value="Adjust Fonts" />
@@ -516,6 +510,13 @@
     <MESSAGE value="Modify InMemory_POS" />
     <MESSAGE value="Recreating InMemory_POS" />
     <MESSAGE value="Adding Boostrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Boostrap" />
+    <MESSAGE value="Restructure Index.html" />
+    <MESSAGE value="Configure Items Form" />
+    <MESSAGE value="Configure Table" />
+    <MESSAGE value="Configure Customer Section" />
+    <MESSAGE value="Configure Order Section" />
+    <MESSAGE value="Customizing Home Page" />
+    <MESSAGE value="Adding NavigationController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding NavigationController" />
   </component>
 </project>
