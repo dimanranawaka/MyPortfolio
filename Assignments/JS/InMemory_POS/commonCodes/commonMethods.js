@@ -83,6 +83,7 @@ function deleteObj(textField, arrayRefNameForDelete){
         //TODO search how to pass method like parameter and remove this waste methods
         /** this two method remove and implement one use ful method */
 
+        loadAllItems();
         loadAllCustomer();
         return true;
     } else {
@@ -103,12 +104,20 @@ function update(textField , arrayRef , fstTxtFld, secondTxtFld,thirdTxtFld, Four
     let caughtObj = search($(textField).val(),arrayRef);
     if(caughtObj != null){
 
+        /* Customer Related */
         caughtObj.id = $(fstTxtFld).val();
         caughtObj.name = $(secondTxtFld).val();
         caughtObj.address = $(thirdTxtFld).val();
         caughtObj.contact = $(FourthTxtFld).val();
 
+        /* Order Related */
+        caughtObj.itemCode = $(fstTxtFld).val();
+        caughtObj.itemName = $(secondTxtFld).val();
+        caughtObj.qty = $(thirdTxtFld).val();
+        caughtObj.unitPrice = $(FourthTxtFld).val();
+
         loadAllCustomer();
+        loadAllItems();
         return true;
     }else{
         return false;
@@ -135,6 +144,18 @@ function validator(txtField , regXPattern , warningText , errorLbl, nextTxtField
             if(regXPattern.test($(txtField).val())){
                 $(txtField).css('border','3px solid green');
                 $(errorLbl).text('');
+
+                /*This for Code itemManager */
+                if (e.key === "Enter" && txtField !== "#unitPriceTxt") {
+                    $(nextTxtField).focus();
+
+                } else if (e.key === "Enter" && txtField === "#unitPriceTxt") {
+                    saveItem();
+                    $(nextTxtField).focus();
+
+                } else {
+                    return false
+                }
 
                 /*This for Code CustomerManager */
                 if(e.key === "Enter" && txtField === "#cusContactTxt"){
