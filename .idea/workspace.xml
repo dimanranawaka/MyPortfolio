@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adding NavigationController">
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/commonCodes/commonMethods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/controllers/customerManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/db/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/model/Customer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/model/Item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adding commonMethods.js, Customer.js , db.js with Codes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,14 +120,7 @@
       <workItem from="1687271117755" duration="18083000" />
       <workItem from="1687315713202" duration="29984000" />
       <workItem from="1687379437735" duration="10829000" />
-      <workItem from="1687397463122" duration="1411000" />
-    </task>
-    <task id="LOCAL-00031" summary="Contact Section Done!">
-      <created>1684390879783</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1684390879783</updated>
+      <workItem from="1687397463122" duration="1864000" />
     </task>
     <task id="LOCAL-00032" summary="Opacity Ajust">
       <created>1684391454815</created>
@@ -473,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687391008060</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Adding commonMethods.js, Customer.js , db.js with Codes">
+      <created>1687399073285</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1687399073285</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +484,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding Services Section" />
     <MESSAGE value="Adding Fonts" />
     <MESSAGE value="Adjust Fonts" />
     <MESSAGE value="Adding Gallery sections" />
@@ -517,6 +508,7 @@
     <MESSAGE value="Configure Order Section" />
     <MESSAGE value="Customizing Home Page" />
     <MESSAGE value="Adding NavigationController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding NavigationController" />
+    <MESSAGE value="Adding commonMethods.js, Customer.js , db.js with Codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding commonMethods.js, Customer.js , db.js with Codes" />
   </component>
 </project>
