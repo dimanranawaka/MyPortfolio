@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Configuring itemManager,commonMethods Js codes" />
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Configuring OrderManager">
+      <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/controllers/customerManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/controllers/customerManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/controllers/orderManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/controllers/orderManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,13 +126,7 @@
       <workItem from="1687379437735" duration="10829000" />
       <workItem from="1687397463122" duration="1864000" />
       <workItem from="1687404791683" duration="3614000" />
-    </task>
-    <task id="LOCAL-00034" summary="Heading Hover Effect">
-      <created>1684453476028</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1684453476028</updated>
+      <workItem from="1687510568154" duration="9382000" />
     </task>
     <task id="LOCAL-00035" summary="Color Adjustment">
       <created>1684454673339</created>
@@ -466,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687407779826</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Configuring OrderManager">
+      <created>1687512460697</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1687512460697</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +490,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding Gallery sections" />
     <MESSAGE value="Adding Skills sections" />
     <MESSAGE value="Adding Assignment sections" />
     <MESSAGE value="Footer Adjustment" />
@@ -510,6 +514,7 @@
     <MESSAGE value="Adding commonMethods.js, Customer.js , db.js with Codes" />
     <MESSAGE value="Adding Order, OrderDetails models" />
     <MESSAGE value="Configuring itemManager,commonMethods Js codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuring itemManager,commonMethods Js codes" />
+    <MESSAGE value="Configuring OrderManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuring OrderManager" />
   </component>
 </project>

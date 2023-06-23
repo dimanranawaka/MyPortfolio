@@ -70,7 +70,7 @@ function saveCustomer(){
     loadAllCustomer();
     customerIDAutoGenerator++;
     $('#cusIdTxt').val("C-0"+customerIDAutoGenerator);
-    /** **********/
+    loadAllCustomersToCombo();
 }
 
 /* Saving Customer Object */
