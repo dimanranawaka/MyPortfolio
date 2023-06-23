@@ -8,3 +8,11 @@ let customerDetails = [];
 /* Array for ItemDetails */
 
 let itemDetails = [];
+
+/* Array for OrderDetails */
+
+let orderDetails = [];
+
+/* Array for PurchaseDetails */
+
+let purchaseDetails = [];

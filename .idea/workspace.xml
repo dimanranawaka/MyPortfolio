@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adding Order, OrderDetails models">
-      <change afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/controllers/itemManager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/commonCodes/commonMethods.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/commonCodes/commonMethods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/db/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Configuring itemManager,commonMethods Js codes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,14 +121,7 @@
       <workItem from="1687315713202" duration="29984000" />
       <workItem from="1687379437735" duration="10829000" />
       <workItem from="1687397463122" duration="1864000" />
-      <workItem from="1687404791683" duration="2884000" />
-    </task>
-    <task id="LOCAL-00033" summary="Boostrap Assignment">
-      <created>1684422656449</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1684422656449</updated>
+      <workItem from="1687404791683" duration="3614000" />
     </task>
     <task id="LOCAL-00034" summary="Heading Hover Effect">
       <created>1684453476028</created>
@@ -472,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687405105913</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Configuring itemManager,commonMethods Js codes">
+      <created>1687407779825</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1687407779826</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adjust Fonts" />
     <MESSAGE value="Adding Gallery sections" />
     <MESSAGE value="Adding Skills sections" />
     <MESSAGE value="Adding Assignment sections" />
@@ -516,6 +509,7 @@
     <MESSAGE value="Adding NavigationController" />
     <MESSAGE value="Adding commonMethods.js, Customer.js , db.js with Codes" />
     <MESSAGE value="Adding Order, OrderDetails models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Order, OrderDetails models" />
+    <MESSAGE value="Configuring itemManager,commonMethods Js codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuring itemManager,commonMethods Js codes" />
   </component>
 </project>
