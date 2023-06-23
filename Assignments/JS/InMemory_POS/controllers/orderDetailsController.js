@@ -12,5 +12,6 @@ function loadAllPurchaseDetails(){
                            <td>${p.Tot}</td>
                           </tr>`;
         $('#itemDetailsTblBody').append(purchaseRow);
+
     }
 }

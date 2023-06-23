@@ -6,5 +6,6 @@ class Order {
         this.Qty = Qty;
         this.total = total;
         this.orderId = orderId;
+
     }
 }

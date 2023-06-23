@@ -7,5 +7,6 @@ class OrderDetails {
         this.oQty = oQty;
         this.Tot = Tot;
         this.discount = discount;
+
     }
 }

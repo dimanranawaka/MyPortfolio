@@ -4,5 +4,6 @@ class Item {
         this.itemName = itemName;
         this.qty = qty;
         this.unitPrice = unitPrice;
+
     }
 }

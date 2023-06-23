@@ -276,3 +276,4 @@ $('#btnClear').on('click', function () {
     clearTextField('#txtQty,#subtotal,#total');
     clearTextField('#txtCash,#txtDiscount,#txtBalance');
 });
+
