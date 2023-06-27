@@ -8,7 +8,7 @@
 
 | NAME | LINK |
 | ------ | ------ |
-| GitHub URL | https://github.com/mGunawardhana |
+| GitHub URL | https://github.com/dimanranawaka|
 | GitHub Page URL | https://dimanranawaka.github.io/MyPortfolio/ 
 | Wire-frame URL | https://wireframe.cc/pro/pp/8ec2b2094666576 |
 | Mock-up URL (Figma) | https://www.figma.com/proto/YyWe05XICVzYcSuPvkKfjE/MyPortfolio-Mock-Up?node-id=0%3A1 |
