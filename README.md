@@ -1,4 +1,4 @@
-<web-## ᴍʏ ᴘᴏʀᴛꜰᴏʟɪᴏ 😇
+<web-## ᴍʏ ᴘᴏʀᴛꜰᴏʟɪᴏ 
 
 ![Screenshot (1300)](https://imgur.com/z5wYqBA)
 
@@ -19,7 +19,7 @@
 
 <br><br>
 
-## ᴡᴇʙ ᴘᴏꜱ 😇
+## ᴡᴇʙ ᴘᴏꜱ 
 
 ![GroceryGuru 𝐏𝐎𝐒 𝐒𝐲𝐬𝐭𝐞𝐦𝐬](https://imgur.com/GkjInAq)
 
