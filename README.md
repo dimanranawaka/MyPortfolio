@@ -1,3 +1,13 @@
+<h3>Technology & Frameworks</h3>
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JS</li>
+  <li>Bootstrap</li>
+  <li>Jquery</li>
+</ul>
+
 ## ᴍʏ ᴘᴏʀᴛꜰᴏʟɪᴏ 
 
 ![PAGE](https://github.com/dimanranawaka/MyPortfolio/assets/114828831/d93bc714-c7e9-428b-a230-0e8b0780d826)
