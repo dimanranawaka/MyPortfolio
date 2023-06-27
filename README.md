@@ -1,7 +1,7 @@
 ## ᴍʏ ᴘᴏʀᴛꜰᴏʟɪᴏ 
 
-![Screenshot (1300)](![PAGE](https://github.com/dimanranawaka/MyPortfolio/assets/114828831/d93bc714-c7e9-428b-a230-0e8b0780d826)
-)
+![PAGE](https://github.com/dimanranawaka/MyPortfolio/assets/114828831/d93bc714-c7e9-428b-a230-0e8b0780d826)
+
 
 <br>
 
