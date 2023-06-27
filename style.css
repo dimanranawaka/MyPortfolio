@@ -797,5 +797,13 @@ contact form.textarea-field textarea:valid~.focus{
         padding: 20px;
     }
 }
+#preloader {
+    background: #f6f6f8 url(Assests/loader.gif) no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index:100;
 
 
+}

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Configuring OrderManager">
-      <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/controllers/customerManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/controllers/customerManager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/controllers/orderManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/controllers/orderManager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/JS/InMemory_POS/index.html" afterDir="false" />
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Implementing Logic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WebApps/WorkZone/MyPortfolio/Assignments/JS/InMemory_POS&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DevStack_Web/CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -127,20 +127,10 @@
       <workItem from="1687397463122" duration="1864000" />
       <workItem from="1687404791683" duration="3614000" />
       <workItem from="1687510568154" duration="9382000" />
-    </task>
-    <task id="LOCAL-00035" summary="Color Adjustment">
-      <created>1684454673339</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1684454673339</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Color Adjustment">
-      <created>1684509335858</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1684509335858</updated>
+      <workItem from="1687529182318" duration="645000" />
+      <workItem from="1687606026687" duration="154000" />
+      <workItem from="1687703531494" duration="8000" />
+      <workItem from="1687860533112" duration="1288000" />
     </task>
     <task id="LOCAL-00037" summary="Logo Text">
       <created>1684509504731</created>
@@ -471,7 +461,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687512460697</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Configuring OrderManager">
+      <created>1687529406488</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1687529406489</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Implementing Logic">
+      <created>1687529601019</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1687529601019</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding Skills sections" />
     <MESSAGE value="Adding Assignment sections" />
     <MESSAGE value="Footer Adjustment" />
     <MESSAGE value="Adding Achivements section" />
@@ -515,6 +518,7 @@
     <MESSAGE value="Adding Order, OrderDetails models" />
     <MESSAGE value="Configuring itemManager,commonMethods Js codes" />
     <MESSAGE value="Configuring OrderManager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuring OrderManager" />
+    <MESSAGE value="Implementing Logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing Logic" />
   </component>
 </project>

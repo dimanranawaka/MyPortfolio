@@ -9,6 +9,9 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+<body>
+<div id="preloader"></div>
+</body>
 <header class="header">
     <a class="logo">Dreed</a>
     <div class="bx bx-menu" id="menu-icon"></div>
@@ -51,6 +54,7 @@
         <img src="Assests/About.jpg" alt="">
         <span class="circle-spin"></span>
     </div>
+
     <div class="about-content">
         <h3>Blockchain Developer!</h3>
         <p>I'm an undergraduate software developer with expertise in smart contract creation and web development.
@@ -468,6 +472,11 @@
     <p>&#169; Diman Ranawaka | All Right Reserved.</p>
 </div>
 
-
+<script>
+    var loader = document.getElementById('preloader');
+    window.addEventListener('load',function () {
+        loader.style.display='none';
+    })
+</script>
 </body>
 </html>
