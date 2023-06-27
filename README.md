@@ -22,7 +22,8 @@
 
 ## ᴡᴇʙ ᴘᴏꜱ 
 
-![GroceryGuru 𝐏𝐎𝐒 𝐒𝐲𝐬𝐭𝐞𝐦𝐬](https://imgur.com/GkjInAq)
+![GroceryGuru 𝐏𝐎𝐒 𝐒𝐲𝐬𝐭𝐞𝐦𝐬]![POS](https://github.com/dimanranawaka/MyPortfolio/assets/114828831/9a0380cc-9858-4ea7-966d-cc25ff90c3ab)
+
 
 <div align="center">
 
