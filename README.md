@@ -50,6 +50,7 @@
 <div align="center">
 
 ## ɪᴅᴇ
+![ide](https://github.com/dimanranawaka/MyPortfolio/assets/114828831/c38dd62c-3eff-43cd-a301-e3338055705a)
 
 </div>
 
