@@ -842,7 +842,8 @@ contact form.textarea-field textarea:valid~.focus{
     width: 60px;
     height: 60px;
     z-index: 1000;
-    background-color: #8696FE;
+    /*background-color: #8696FE;*/
+    background: url('Assests/chatbot.png') no-repeat center center;
     border-radius: 50%;
     display: flex;
     justify-content: center;
