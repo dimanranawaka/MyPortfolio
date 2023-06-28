@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Implementing Logic">
+    <list default="true" id="61f16aee-5fed-4afa-b99b-7a94defa8826" name="Changes" comment="Adding Loader">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,14 +129,8 @@
       <workItem from="1687529182318" duration="645000" />
       <workItem from="1687606026687" duration="154000" />
       <workItem from="1687703531494" duration="8000" />
-      <workItem from="1687860533112" duration="1288000" />
-    </task>
-    <task id="LOCAL-00037" summary="Logo Text">
-      <created>1684509504731</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1684509504731</updated>
+      <workItem from="1687860533112" duration="2011000" />
+      <workItem from="1687914341936" duration="310000" />
     </task>
     <task id="LOCAL-00038" summary="Update the Social Media Links">
       <created>1684541998934</created>
@@ -475,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687529601019</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Adding Loader">
+      <created>1687861877020</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1687861877020</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding Assignment sections" />
     <MESSAGE value="Footer Adjustment" />
     <MESSAGE value="Adding Achivements section" />
     <MESSAGE value="Adding a Resume" />
@@ -519,6 +518,7 @@
     <MESSAGE value="Configuring itemManager,commonMethods Js codes" />
     <MESSAGE value="Configuring OrderManager" />
     <MESSAGE value="Implementing Logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing Logic" />
+    <MESSAGE value="Adding Loader" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Loader" />
   </component>
 </project>
