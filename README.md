@@ -1,6 +1,17 @@
+<h3>Technology & Frameworks</h3>
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JS</li>
+  <li>Bootstrap</li>
+  <li>Jquery</li>
+</ul>
+
 ## ᴍʏ ᴘᴏʀᴛꜰᴏʟɪᴏ 
 
-![Screenshot (1300)](https://imgur.com/z5wYqBA)
+![PAGE](https://github.com/dimanranawaka/MyPortfolio/assets/114828831/d93bc714-c7e9-428b-a230-0e8b0780d826)
+
 
 <br>
 
@@ -21,7 +32,8 @@
 
 ## ᴡᴇʙ ᴘᴏꜱ 
 
-![GroceryGuru 𝐏𝐎𝐒 𝐒𝐲𝐬𝐭𝐞𝐦𝐬](https://imgur.com/GkjInAq)
+![POS](https://github.com/dimanranawaka/MyPortfolio/assets/114828831/9a0380cc-9858-4ea7-966d-cc25ff90c3ab)
+
 
 <div align="center">
 
@@ -48,6 +60,7 @@
 <div align="center">
 
 ## ɪᴅᴇ
+![ide](https://github.com/dimanranawaka/MyPortfolio/assets/114828831/c38dd62c-3eff-43cd-a301-e3338055705a)
 
 </div>
 
