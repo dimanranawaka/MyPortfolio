@@ -807,3 +807,58 @@ contact form.textarea-field textarea:valid~.focus{
 
 
 }
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#chatbot {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 400px;
+    z-index: 1000;
+    display: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    transition: all 0.3s ease-in-out;
+}
+
+#chatbot.show {
+    display: block;
+}
+
+#chathead {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+    background-color: #8696FE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    transition: all 0.3s ease-in-out;
+    animation: pulse 2s infinite;
+}
+
+.close-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
